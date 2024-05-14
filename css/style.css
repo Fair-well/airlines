@@ -1,0 +1,74 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    background: linear-gradient(135deg, #71b7e6,#9b59b6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150vh; /* Viewport height for centering vertically */
+}
+
+.container {
+    text-align: center; /* Centers form and heading horizontally */
+}
+
+/* Centering form and its elements */
+.form-container {
+    max-width: 600px; /* Specify the maximum width of the form */
+    margin: auto;
+}
+
+/* Heading styles */
+h3 {
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    color: blue;
+    margin-bottom: 20px; /* Add some spacing between heading and form */
+}
+
+/* Form elements styles */
+.form-container input {
+    padding: 10px;
+    width: 100%; /* Full width of the container */
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+/* Button styles */
+button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    background: green;
+    color: white;
+    border: none;
+}
+.form-check-input{
+    border-radius: 50%;
+    margin-right: 10px; /* Adjust spacing between different radio buttons */
+
+    /* Optional: you can customize the size of the radio buttons */
+    width: 20px; /* Customize width */
+    height: 20px; /* Customize height */
+  
+    
+    /* Optional: Customize border color and other properties */
+    border-color: #007bff; /* Border color */
+    background-color: #fff; /* Background color */
+}
+.form-container{
+    background-color: white;
+    padding: 80px;
+}
+/* Optional CSS adjustments */
+.form-check-label {
+    margin-left: 5px; /* Adjust spacing between radio button and label */
+    margin-left: 1px;
+}
+

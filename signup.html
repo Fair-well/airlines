@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/signup.css">
+    <title>Responsive HTML Form</title>
+   
+</head>
+<body>
+  <div class="container">
+    <div class="title">SIGN UP</div>
+    <form  method="POST" action="./PHP/signup.php" >
+        
+        <div class="user_details">
+            <div class="input_box">
+                <span class="details">Full Name</span>
+                <input type="text" id="full_name" name="full_name" placeholder="Enter your name" required>
+                
+            </div>
+            <div class="input_box">
+                <span class="details">User Name</span>
+                <input type="text" id="username" name="username" placeholder="Enter your username" required>
+
+            </div>
+            <div class="input_box">
+                <span class="email" id="email">Email</span>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+            </div>
+            <div class="input_box">
+                <span class="details" id="phone">Phone Number</span>
+                <input type="text" id="phone_number" name="phonenumber" placeholder="Enter your number" required>
+
+            </div>
+            <div class="input_box">
+                <span id="password" class="details">Password</span>
+                <input type="password" id="password" name="password" placeholder="Enter your password" required>
+                
+            </div>
+            <div class="input_box">
+                <span class="details" id="password">Confirm Password</span>
+                <input type="password" id="confirmPassword" name="confirmPassword" placeholder="Confirm your password" required>
+               
+            </div>
+        </div>
+        
+        <div class="button">
+            <input type="submit" value="Register">
+        </div>
+        
+         <!-- <button type="submit" >Register</button> -->
+    </form>
+  </div>
+
+</body>
+</html>
